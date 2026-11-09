@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Covered Call Calc support</title><meta name="description" content="Support and FAQ for the Covered Call Calc app."><meta name="robots" content="index,follow">
+<style>
+:root{--bg:#09090b;--surface:#131316;--text:#f3f1ea;--steel:#9aa5b6;--gold:#e2b04a;--line:#2b2e36}
+@media (prefers-color-scheme:light){:root{--bg:#f6f3ea;--surface:#fff;--text:#111215;--steel:#566173;--gold:#8a5f00;--line:#dcd6c6}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px 64px}h1{font-size:2rem;line-height:1.15;margin:.2em 0 .4em;letter-spacing:-.02em}
+h2{font-size:1.2rem;margin:1.8em 0 .4em;color:var(--gold)}p,li{color:var(--text)}.muted{color:var(--steel)}
+a{color:var(--gold)}.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:16px 0}
+.mark{display:inline-block;width:28px;height:28px;border-radius:8px;background:var(--gold);color:#1a1405;font:700 16px/28px ui-monospace,monospace;text-align:center;margin-right:10px;vertical-align:middle}
+footer{margin-top:40px;color:var(--steel);font-size:.9rem}
+</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Covered Call Calc","operatingSystem":"iOS","applicationCategory":"EducationalApplication","description":"Covered call, cash-secured put and wheel calculators with Greeks and a private options journal. Educational; not investment advice.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@type":"Organization","name":"Cinderspire"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Does the app show live prices?","acceptedAnswer":{"@type":"Answer","text":"No. You type every price yourself. The app has no market data and no broker connection."}},{"@type":"Question","name":"Is my journal uploaded anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. Positions, inputs and settings stay on your device. You can export a CSV or erase everything in Settings."}},{"@type":"Question","name":"Which model prices the Greeks?","acceptedAnswer":{"@type":"Answer","text":"Black-Scholes-Merton with a continuous dividend yield. It prices European options, so real US options that can be exercised early may differ."}},{"@type":"Question","name":"Is this investment advice?","acceptedAnswer":{"@type":"Answer","text":"No. It is an educational calculator. Options involve risk and are not suitable for all investors."}}]}</script></head><body><main>
+<p><span class="mark">C</span><strong>Covered Call Calc</strong></p>
+<h1>Support and FAQ</h1>
+<p class="muted">Calculators for covered calls, cash-secured puts and the wheel, Black-Scholes Greeks, a roll calculator and a private options journal.</p>
+<div class="card"><strong>Educational calculator. Not investment advice. Options involve risk and are not suitable for all investors.</strong></div>
+<h2>Contact</h2><p>Email <a href="mailto:support@playtools.top">support@playtools.top</a>. Please say which device and app version you use.</p>
+<h2>Questions</h2>
+<p><strong>Does the app show live prices?</strong><br>No. You type every price yourself. There is no market data and no broker connection.</p>
+<p><strong>Where is my journal stored?</strong><br>Only on your device. Settings has CSV export and Erase all data.</p>
+<p><strong>How is annualised return calculated?</strong><br>By default as the trade's return x 365 / days to expiry (simple). Settings lets you choose compounded and/or a 252-trading-day year. The convention is printed under each result.</p>
+<p><strong>Which model prices the Greeks?</strong><br>Black-Scholes-Merton with a continuous dividend yield, time = days / 365. It prices European options; US options can be exercised early, so real prices can differ. Theta is per calendar day, vega per 1 volatility point, rho per 1 percentage point of the rate.</p>
+<p><strong>How is the wheel cost basis calculated?</strong><br>Adjusted basis = (cost of the shares you hold minus the net premium kept since you last sold out) / shares. Buy-backs and fees reduce the premium.</p>
+<p><strong>Why did the implied volatility solver say there is no solution?</strong><br>The premium is below the lowest or above the highest value the model allows for those inputs. Check that the premium is per share and that stock price, strike, days and rate are correct.</p>
+<h2>More</h2>
+<p><a href="privacy-coveredcall.html">Privacy policy</a> &middot; Learn more at <a href="https://coveredcallcalculator.net/?utm_source=support&amp;utm_medium=coveredcall&amp;utm_campaign=crosslink">coveredcallcalculator.net</a>. This app is not affiliated with any exchange, clearing house, broker, tax authority or government body.</p>
+<footer>Cinderspire</footer>
+</main></body></html>
