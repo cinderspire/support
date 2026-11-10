@@ -29,11 +29,11 @@
       <h1>TaskFlow: To-Do &amp; Planner</h1>
     </div>
     <p class="lede">To-do list, calendar, focus timer and statistics. This policy covers this app only — each of our apps has its own.</p>
-    <p class="fineprint">Last updated: 25 September 2026</p>
+    <p class="fineprint">Last updated: 10 November 2026</p>
   </section>
   <section class="help-card" aria-labelledby="summary-title">
     <h2 id="summary-title">The short version</h2>
-    <p>Your tasks, calendar entries, focus sessions and statistics never leave your device. TaskFlow shows no ads and has no crash reporting or analytics service, so nothing about you or your use of the app is sent anywhere.</p>
+    <p>Your tasks, calendar entries, focus sessions and statistics never leave your device. TaskFlow has no crash reporting or analytics service and shows no third-party ads. The free version shows a small card about our other apps and websites; the only thing that card can send is described under “Promo cards for our own apps” and contains no identifier.</p>
     <p class="help-note">There is no account and no sign-up. We never ask for your name, email address or phone number to use the app, and there is no developer-run server holding your content.</p>
   </section>
   <section aria-labelledby="collect-title">
@@ -41,24 +41,32 @@
       <h2 id="collect-title">What we collect</h2>
       <p>Concretely, here is everything that is handled or sent anywhere.</p>
     </div>
-    <ul class="list"><li><strong>Nothing you type.</strong> Tasks, notes, calendar entries, focus sessions and statistics are stored on your device, inside the app. There is no developer-run server and no cloud sync, so we cannot see them.</li><li><strong>Whether Premium is active.</strong> Apple or Google tells the app whether your entitlement is active. Purchases go directly through StoreKit or Google Play Billing; no subscription-analytics service is used.</li></ul>
+    <ul class="list"><li><strong>Nothing you type.</strong> Tasks, notes, calendar entries, focus sessions and statistics are stored on your device, inside the app. There is no developer-run server and no cloud sync, so we cannot see them.</li><li><strong>Whether Premium is active.</strong> Apple tells the app whether your entitlement is active. Purchases go directly through Apple's StoreKit; no subscription-analytics service is used.</li><li><strong>Promo cards.</strong> The free version shows a card about our other apps and websites at the end of the Tasks list and on the Stats screen, and Settings → More from us lists them. Premium removes the cards. See “Promo cards for our own apps” below.</li></ul>
   </section>
   <section aria-labelledby="notcollect-title">
     <div class="section-head">
       <h2 id="notcollect-title">What we do not collect</h2>
       <p>We do not ask for, receive or store any of the following.</p>
     </div>
-    <ul class="list"><li>advertising data — the app shows no ads</li><li>your name</li><li>your email address or phone number</li><li>contacts</li><li>precise location</li><li>photos or files outside the app</li><li>browsing history</li><li>payment card details</li><li>crash reports — the app includes no crash reporting service</li></ul>
+    <ul class="list"><li>your advertising identifier (IDFA) or any tracking data — the app does not track you and does not ask for tracking permission</li><li>your name</li><li>your email address or phone number</li><li>contacts</li><li>precise location</li><li>photos or files outside the app</li><li>browsing history</li><li>payment card details</li><li>crash reports — the app includes no crash reporting service</li></ul>
     <div class="callout"><p>There is <strong>no account, no sign-up and no login</strong>. Everything you create in the app is stored on your device, so we have no way to look at it, and nothing to hand over or sell.</p></div>
   </section>
   <section aria-labelledby="payments-title">
     <div class="section-head"><h2 id="payments-title">Payments</h2></div>
-    <div class="prose"><p>Purchases are processed by Apple on the App Store or by Google on Google Play. We never receive or store your payment card details — the store only tells the app whether your entitlement is active.</p></div>
+    <div class="prose"><p>Purchases are processed by Apple on the App Store. We never receive or store your payment card details — the store only tells the app whether your entitlement is active.</p></div>
   </section>
   <section aria-labelledby="third-title">
     <div class="section-head">
       <h2 id="third-title">Third-party services</h2>
-      <p>None. Apart from Apple's App Store (or Google Play) for purchases, the app does not talk to any outside service.</p>
+      <p>Apart from Apple's App Store for purchases, the only outside services are the two described under “Promo cards for our own apps”. The app links no third-party advertising or analytics SDK.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="promo-title">
+    <div class="section-head">
+      <h2 id="promo-title">Promo cards for our own apps</h2>
+      <p>The card is our own cross-promotion for other Cinderspire apps and websites. Today it is filled from a list that ships inside the app, so the app asks nobody for it. Once per app start, when a card is due, it also downloads one small public settings file from cinderspire.github.io (hosted by GitHub Pages), which can switch live cards on; like any website, GitHub sees your IP address for that request.</p>
+      <p>When live cards are switched on, TaskFlow asks our promo service (Eco Network) for one card. The request contains only: TaskFlow’s app identifier, the operating system (iOS), the device class (phone or tablet) and a topic group for the card. It contains no advertising identifier, device identifier, account, location or any of your content, and the app keeps no record of what it showed. The service counts a view when a card has been on screen for about a second, and a click when you tap its button, which opens the App Store page or website outside the app. Like any web request it also reaches the service with your IP address, which we do not use to identify you. Cards never appear in editors, on the Premium screen or during a Focus session, and Premium removes them.</p>
     </div>
   </section>
   <section aria-labelledby="rights-title">
